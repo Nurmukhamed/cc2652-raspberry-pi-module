@@ -34,6 +34,15 @@ serial:
     baudrate: 115200 
     rtscts: false
 ```
+For Zigbee2Mqtt version 2.x and up edit `data/configuration.yaml` accordingly:
+```
+serial:
+  adapter: zstack
+  port: /dev/ttyAMA0
+  baudrate: 115200 
+  rtscts: false
+```
+
 
 ## Homegear
 Install `homegear-zigbee` and edit `/etc/homegear/families/zigbee.conf`: 
